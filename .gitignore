@@ -1,11 +1,13 @@
-# created by virtualenv automatically
-../.venv/Lib
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.so
 
 # Virtual Environment
-.venv
+venv/
+.venv/
 .env
 *.env
 
@@ -13,6 +15,9 @@ __pycache__/
 db.sqlite3
 media/
 staticfiles/
+
+# Logs
+*.log
 
 # IDEs and OS
 .vscode/
