@@ -1,0 +1,21 @@
+# created by virtualenv automatically
+../.venv/Lib
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv
+.env
+*.env
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
