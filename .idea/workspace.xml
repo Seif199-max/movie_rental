@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5957a1a-926a-4f2d-8529-6b50d7833ded" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movie_rental.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie_rental.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a5957a1a-926a-4f2d-8529-6b50d7833ded" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +31,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Seif199-max/movie_rental.git",
+    "accountId": "f258f886-4d3a-4be1-a808-3274ca4b640a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -60,6 +61,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\DjangoProjects\movie_rental" />
+      <recent name="C:\Users\user\PycharmProjects\DjangoProjects\movie_rental\web_app" />
+      <recent name="C:\Users\user\PycharmProjects\DjangoProjects\movie_rental\.venv" />
+      <recent name="C:\Users\user\PycharmProjects\DjangoProjects\movie_rental\movie_rental" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="movie_rental" type="Python.DjangoServer" factoryName="Django server">
       <module name="movie_rental" />
@@ -105,7 +114,7 @@
       <updated>1757170447162</updated>
       <workItem from="1757170448230" duration="1411000" />
       <workItem from="1757171873756" duration="946000" />
-      <workItem from="1757240086266" duration="661000" />
+      <workItem from="1757240086266" duration="2736000" />
     </task>
     <servers />
   </component>
