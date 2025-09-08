@@ -1,24 +1,49 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Movie_Rental</title>
-</head>
-<body>
+{% block content %}
 
-{% for movie in movies %}
-<span>{{ movie.movie_name }}</span><br>
-    <div class="column">
-            <img src="/web_app/static/img/{{movie.movie_name}}.jpg" alt="{{ movie.movie_name}}" />
+<div class="container my-5">
+  <h1 class="text-center mb-4">Our Movies</h1>
 
-        </div>
-<span>price : {{ movie.price }}</span><br>
-<span> Quantity :{{ movie.quantity }}</span><br>
-<span> {{ movie.description }}</span><br><br><br>
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <ul class="list-group">
+        {% for movie in movies %}
+          <li class="list-group-item">
+            <div class="row align-items-center">
 
-{% empty %}
-<span>NO Movies Available</span>
-{% endfor %}
-</body>
-</html>
+              <!-- Movie Image -->
+              <div class="col-md-3 text-center">
+                <img src="{% static 'img/' %}{{ movie.movie_name }}.jpg"
+                     alt="{{ movie.movie_name }}"
+                     class="img-fluid rounded shadow-sm"
+                     style="max-height: 150px; object-fit: cover;">
+              </div>
+
+              <!-- Movie Info -->
+              <div class="col-md-6">
+                <h5 class="mb-1">{{ movie.movie_name }}</h5>
+                <a href="{% url 'movies_item' movie.id %}"
+                   class="text-decoration-none text-danger small">
+                   SHOW MORE
+                </a>
+              </div>
+
+              <!-- Price -->
+              <div class="col-md-3 text-end">
+                <span class="badge bg-success fs-6 p-2">
+                  ${{ movie.price }}.00
+                </span>
+              </div>
+            </div>
+          </li>
+        {% empty %}
+          <li class="list-group-item text-center">No items available.</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+

@@ -1,3 +1,5 @@
+from django.contrib.auth import login
+from django.contrib.auth.forms import UserCreationForm
 from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from .models import Rentals,Returns,User,Movies
@@ -38,4 +40,42 @@ def returns(request):
     else:
         form = ReturnsForm()
     return render(request, "returns.html", {"form": form})
+
+
+def register(request):
+    if request.method == "POST":
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect("home")
+    else:
+        form = UserCreationForm()
+    return render(request, "register.html", {"form": form})
+
+
+def movies_item(request,pk=None):
+    if pk:
+        movie=Movies.objects.get(pk=pk)
+    else:
+        movie=''
+    return render(request, "movies_item.html",{"movie": movie})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

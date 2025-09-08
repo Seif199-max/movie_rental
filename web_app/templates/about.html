@@ -1,11 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-Hey
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section>
+  <article>
+    <h1>About Us</h1>
+    <!--Begin row-->
+    <div class="row">
+      <!--Begin col-->
+      <div class="column">
+        <p>Welcome to our movie store! We believe that cinema is more than just entertainment
+            — it is an inspiring experience
+            that transports you to different worlds
+            and leaves a lasting impact on your life.</p>
 
-</body>
-</html>
+
+          <p>Our collection brings together timeless classics,
+              modern blockbusters, and hidden gems from around the world.
+              Whether you are a fan of action, drama, science fiction,
+              or romance, we have something for every taste and every mood.</p>
+
+
+          <p>We are passionate about movies and committed to providing our customers with high-quality films,
+              easy access, and a seamless shopping experience.
+              Each title in our store is carefully selected to ensure that you enjoy not just a movie,
+              but a journey worth remembering.</p>
+
+
+          <p>Thank you for choosing us as your destination for movies. Sit back,
+              relax, and let the magic of cinema begin!</p>
+      </div>
+      <!--End col-->
+
+      <!--Begin col-->
+      <div class="column">
+        <figure class="figure">
+          <img
+            src="{% static 'img/seif.jpg' %}"
+            alt="Seif The Owner"
+          />
+          <figcaption class="figure-caption">
+            C_Cinema owner Seif.
+          </figcaption>
+        </figure>
+      </div>
+      <!--End col-->
+    </div>
+    <!--End row-->
+  </article>
+</section>
+{% endblock %}

@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5957a1a-926a-4f2d-8529-6b50d7833ded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_app/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_app/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_app/templates/movies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_app/templates/rentals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_app/templates/returns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_rental/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_rental/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_rental/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_rental/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/models.py" afterDir="false" />
+    <list default="true" id="a5957a1a-926a-4f2d-8529-6b50d7833ded" name="Changes" comment="today work">
+      <change afterPath="$PROJECT_DIR$/web_app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_app/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_app/templates/movies_item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_app/templates/partials/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_app/templates/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_app/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/templates/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/templates/movies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/templates/rentals.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/templates/rentals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/templates/returns.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/templates/returns.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/views.py" afterDir="false" />
     </list>
@@ -45,18 +47,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Seif199-max"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Seif199-max&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Seif199-max/movie_rental.git",
-    "accountId": "f258f886-4d3a-4be1-a808-3274ca4b640a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Seif199-max/movie_rental.git&quot;,
+    &quot;accountId&quot;: &quot;f258f886-4d3a-4be1-a808-3274ca4b640a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -66,23 +68,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/PycharmProjects/DjangoProjects/firstProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/DjangoProjects/firstProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\PycharmProjects\DjangoProjects\movie_rental\web_app\static\img" />
@@ -137,11 +139,33 @@
       <updated>1757170447162</updated>
       <workItem from="1757170448230" duration="1411000" />
       <workItem from="1757171873756" duration="946000" />
-      <workItem from="1757240086266" duration="15262000" />
+      <workItem from="1757240086266" duration="15407000" />
+      <workItem from="1757330438023" duration="6435000" />
     </task>
+    <task id="LOCAL-00001" summary="today work">
+      <option name="closed" value="true" />
+      <created>1757265225077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757265225077</updated>
+    </task>
+    <task id="LOCAL-00002" summary="today work">
+      <option name="closed" value="true" />
+      <created>1757265277541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757265277541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="today work" />
+    <option name="LAST_COMMIT_MESSAGE" value="today work" />
   </component>
 </project>
